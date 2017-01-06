@@ -1,0 +1,50 @@
+（1）快速生成一个vue项目架子（webpack)  http://www.cnblogs.com/wx1993/p/6136892.html
+环境要求：  安装有 Node.js、 vue、 vue-cli 。
+
+创建项目：
+
+vue init webpack projectName
+
+进入项目，下载依赖：
+
+npm install 或者 cnpm install
+
+运行项目：
+
+npm run dev
+
+效果如下：
+E:\learn\gits\demo\vue\es6>cd..
+
+E:\learn\gits\demo\vue>md learn
+
+E:\learn\gits\demo\vue>cd learn
+
+E:\learn\gits\demo\vue\learn>vue init webpack vues6
+
+  This will install Vue 2.x version of the template.
+
+  For Vue 1.x use: vue init webpack#1.0 vues6
+
+? Project name lllll
+? Project description vue and es6
+? Author panxiong <303507479@163.com>
+? Vue build standalone
+? Use ESLint to lint your code? No
+? Setup unit tests with Karma + Mocha? No
+? Setup e2e tests with Nightwatch? No
+
+   vue-cli · Generated "vues6".
+
+   To get started:
+
+     cd vues6
+     npm install
+     npm run dev
+
+   Documentation can be found at https://vuejs-templates.github.io/webpack
+
+
+E:\learn\gits\demo\vue\learn>cd vues6
+
+E:\learn\gits\demo\vue\learn\vues6>npm install
